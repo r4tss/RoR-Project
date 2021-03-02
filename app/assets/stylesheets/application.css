@@ -13,3 +13,48 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+    font-family: monospace;
+    margin: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    min-height: 3vh;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    place-content: center space-between;
+}
+
+.acc{
+    margin: 0 15px 0 15px;
+    width: 150px;
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    place-content: center space-between;
+}
+
+.nav{
+    margin: 0 15px 0 15px;
+    align-self: center;
+}
+
+.yield{
+    align-self: center;
+    padding: 3vh 3vw 3vh 3vw;
+    background-color: lightblue;
+    width: 75vw;
+    min-height: 77vh;
+}
+
+.footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: lightblue;
+}
